@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f1f8;
+    color: #4a2c8b;
+}
+
+header {
+    background-color: #9b59b6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-top: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: #8e44ad;
+    color: white;
+    padding: 15px;
+}
+
+nav .menu ul {
+    list-style-type: none;
+}
+
+nav .menu ul li {
+    margin: 10px 0;
+}
+
+nav .menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    display: block;
+}
+
+nav .submenu {
+    display: none;
+    margin-left: 20px;
+}
+
+nav .menu ul li:hover .submenu {
+    display: block;
+}
+
+nav .submenu li {
+    margin: 5px 0;
+}
+
+main {
+    text-align: center;
+    padding: 40px 0;
+}
+
+main .conteudo h2 {
+    font-size: 2em;
+    color: #6a1b9a;
+    margin-bottom: 10px;
+}
+
+main .conteudo p {
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #8e44ad;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .redes-sociais p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+footer .redes-sociais ul {
+    list-style-type: none;
+}
+
+footer .redes-sociais ul li {
+    margin: 5px 0;
+}
+
+footer .redes-sociais ul li a {
+    color: white;
+    text-decoration: none;
+}
